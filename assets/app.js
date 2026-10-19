@@ -1,0 +1,1 @@
+(function(){var q=document.querySelector('.qs input');if(q){var m=location.search.match(/[?&]q=([^&]*)/);if(m&&!/search\.html/.test(location.pathname))q.value=decodeURIComponent(m[1].replace(/\+/g,' '));}})();
