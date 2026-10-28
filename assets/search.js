@@ -1,6 +1,6 @@
 /* 离线搜索：多个关键词 AND 子串匹配；无结果时退化为二元组（bigram）模糊匹配。可在 node 中 require 测试。 */
 (function(root){
-var TY={fact:'事实',consensus:'共识',debate:'分歧',recommendation:'推荐',event:'事件',howto:'操作指南'},CF={high:'高',medium:'中',low:'低'},ST={active:'有效',stale:'可能过时',disputed:'有争议'},KD={card:'卡片',theme:'主题',entity:'实体',page:'页面'};
+var TY={fact:'事实',consensus:'共识',debate:'分歧',recommendation:'推荐',event:'事件',howto:'操作指南'},CF={high:'高',medium:'中',low:'低'},ST={active:'有效',stale:'可能过时',disputed:'有争议'},KD={card:'卡片',theme:'主题',entity:'实体',page:'页面',src:'原帖'};
 function norm(s){return (s||'').toLowerCase();}
 function count(h,n){var c=0,i=0;while((i=h.indexOf(n,i))>=0){c++;i+=n.length;}return c;}
 function grams(s){var g=[];s=s.replace(/\s+/g,'');if(s.length<2)return s?[s]:[];for(var i=0;i<s.length-1;i++)g.push(s.substr(i,2));return g;}

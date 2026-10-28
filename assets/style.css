@@ -74,3 +74,8 @@ body.navopen header nav{display:flex}.qs{display:none}h1{font-size:1.3rem}table.
 .side .sl{font-weight:600;margin-bottom:4px}.side ul{padding-left:1.1em;margin:0}.lean{background:var(--accent2);padding:6px 10px;border-radius:6px}.ans{font-weight:500}
 .qk-conflict{background:#fee2e2;color:#991b1b}.qk-stale{background:#fef3c7;color:#92400e}.qk-ambiguous{background:#e0e7ff;color:#3730a3}.qk-unclear{background:#f3e8ff;color:#6b21a8}
 .qs-open{color:var(--low);border-color:var(--low)}.qs-answered{color:var(--high);border-color:var(--high)}
+a.ext.x{font-size:.8em;margin-left:2px;text-decoration:none;opacity:.7}a.srcl{text-decoration:underline dotted}
+.replies{list-style:none;padding:0}.reply{border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin:8px 0;background:var(--card)}
+.reply.cited{border-left:4px solid #f59e0b;background:#fffbeb}.reply:target{outline:2px solid #f59e0b}.rh{font-size:.88rem;margin-bottom:4px}.rh .who{font-weight:600}
+.rh .th{color:#e11d48}.rby{font-size:.82rem;color:#92400e;margin-bottom:4px}.rb{word-break:break-word;line-height:1.6}.op .rb{border-left:3px solid var(--line);padding-left:10px}
+.allreps>summary{cursor:pointer;font-weight:600;margin:12px 0}.citedby ul{padding-left:1.1em}
