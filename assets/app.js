@@ -1,1 +1,2 @@
 (function(){var q=document.querySelector('.qs input');if(q){var m=location.search.match(/[?&]q=([^&]*)/);if(m&&!/search\.html/.test(location.pathname))q.value=decodeURIComponent(m[1].replace(/\+/g,' '));}})();
+(function(){function go(){var h=location.hash.slice(1);if(!h)return;var el=document.getElementById(h);if(!el)return;var d=el.closest&&el.closest('details');if(d&&!d.open){d.open=true;}el.scrollIntoView();}window.addEventListener('hashchange',go);if(document.readyState!=='loading')go();else document.addEventListener('DOMContentLoaded',go);})();
