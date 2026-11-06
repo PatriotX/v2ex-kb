@@ -1,16 +1,16 @@
 {
- "built_at": "2026-11-05",
+ "built_at": "2026-11-06",
  "public": true,
  "excluded": 12,
- "cards": 177,
+ "cards": 180,
  "themes": 10,
  "entities": 12,
  "other_pages": 0,
  "questions_page": false,
  "questions": {},
- "graph_nodes": 199,
- "graph_edges": 443,
+ "graph_nodes": 202,
+ "graph_edges": 454,
  "broken_wikilinks": [],
- "source_pages": 319,
- "html_files": 524
+ "source_pages": 327,
+ "html_files": 535
 }
